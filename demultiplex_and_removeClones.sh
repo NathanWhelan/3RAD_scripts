@@ -29,8 +29,8 @@ rm Plate1_[1-4].2.fq.gz
 rm Plate2_[1-4].1.fq.gz
 rm Plate2_[1-4].2.fq.gz
 
-## Split samples using the inline barcodes. Be sure to specifc the enxzyme you used in library prep. 
-#Can also add -D to keep discarded reads, but take up space
+## Split samples using the inline barcodes. Be sure to specify the enzyme you used in library prep. 
+#Can also add -D to keep discarded reads, but this takes up space for unclear benefit.
 
 #Plate 1
 mkdir BrookFloater_Plate1
